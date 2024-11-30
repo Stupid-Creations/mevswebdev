@@ -10,16 +10,33 @@ p {
   margin-right: auto;
     font-family: "Lucida Console", "Courier New", monospace;
 }
-h2 {
+/*h2 {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
     font-family: "Lucida Console", "Courier New", monospace;
-}
+}*/
+
+
+
 
 .im {
   display: block;
   margin-left: auto;
+  width: 30%;
+}
+
+.lim {
+  display: block;
   margin-right: auto;
   width: 30%;
+}
+
+
+#rcorners {
+  border-radius: 25px;
+  padding: 20px;
+  width: 400px
+  height: auto;
+  background:lightgoldenrodyellow;
 }
